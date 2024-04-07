@@ -1,0 +1,63 @@
+/* Reset CSS */
+/*----------------------------------------*/
+
+/* Box sizing border-box reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Margin and padding reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Remove default block margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Remove text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Set default font family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Remove outline on focus */
+:focus {
+  outline: none;
+}
+
+/* Add more resets as needed */
