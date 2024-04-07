@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +9,7 @@ const Navbar = () => {
         <div className="max-w-full mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <div className="flex-shrink-0 mr-4">
-              {/* Insira aqui sua logo */}
-              <img className="h-8" src="/logo.svg" alt="Logo" />
+              <img className="h-10" src="/logo-sided.jpg" alt="Logo" />
             </div>
           </div>
           <div className="hidden md:block ml-auto">
