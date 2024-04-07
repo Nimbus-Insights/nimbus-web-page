@@ -1,17 +1,54 @@
-# Nimbus Insights ☁️🛰️
 
-[](https://github.com/murillocosta/nimbusinsights#nimbus-insights-%EF%B8%8F%EF%B8%8F)
 
-### Cores:
+<img src="https://github.com/Nimbus-Insights/nimbus-web-page/assets/91096652/0f2c5212-091e-4bb9-9a55-20bd7f957436" alt="Imagem do WhatsApp de 2024-04-04 à(s) 18 59 37_d05aeb48" width="500" style="margin-bottom: 50px;">
 
-[](https://github.com/murillocosta/nimbusinsights#cores)
 
-Mostarda: #ffbf00  [![mostarda](https://camo.githubusercontent.com/670d26ff0d3aee415f1282c9a85193b1642f0d0cf1b11a795e7ff27cf3eabed5/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f6666626630302f3030303030303f746578743d2b)](https://camo.githubusercontent.com/670d26ff0d3aee415f1282c9a85193b1642f0d0cf1b11a795e7ff27cf3eabed5/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f6666626630302f3030303030303f746578743d2b)
+# Bem-vindo ao repositório da webpage da Nimbus Insight!
 
-Azul escuro: #0b2a49  [![azul escuro](https://camo.githubusercontent.com/f14fe61be5efe232a72a41ed42addfb089dadc0eb19eb3743c0a062c8fc165de/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f3062326134392f3030303030303f746578743d2b)](https://camo.githubusercontent.com/f14fe61be5efe232a72a41ed42addfb089dadc0eb19eb3743c0a062c8fc165de/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f3062326134392f3030303030303f746578743d2b)
+## Sobre o Projeto
 
-Azul mediano: #3495c8  [![azul mediano](https://camo.githubusercontent.com/22a272ceb38c14cc7ea98d8e6f7768fea23c4219f6463502f917f3e2a0db4adc/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f3334393563382f3030303030303f746578743d2b)](https://camo.githubusercontent.com/22a272ceb38c14cc7ea98d8e6f7768fea23c4219f6463502f917f3e2a0db4adc/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f3334393563382f3030303030303f746578743d2b)
+O Nimbus Insight é um site que visa fornecer aos usuários uma experiência intuitiva e informativa sobre os serviços e soluções oferecidos pela Nimbus Insight.
 
-Azul claro: #76dfff  [![azul claro](https://camo.githubusercontent.com/0ec19e62cf3c1b0447cacdce20ad21db02ca8417902472f4244fc0a1d4def015/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f3736646666662f3030303030303f746578743d2b)](https://camo.githubusercontent.com/0ec19e62cf3c1b0447cacdce20ad21db02ca8417902472f4244fc0a1d4def015/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f3736646666662f3030303030303f746578743d2b)
+### Tecnologias Utilizadas
 
-Branco: #fffffd  [![branco](https://camo.githubusercontent.com/71e4aa4ac26bb1a88dd9cd40bcf63de89d209ad332af8328a36e8cca109162d3/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f6666666666642f3030303030303f746578743d2b)](https://camo.githubusercontent.com/71e4aa4ac26bb1a88dd9cd40bcf63de89d209ad332af8328a36e8cca109162d3/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f32302f6666666666642f3030303030303f746578743d2b)
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Contribuição
+
+Contribuições são bem-vindas! Antes de enviar uma pull request, por favor, abra uma issue para discutir as mudanças propostas.
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de ter o Node.js e o npm (ou yarn) instalados em sua máquina.
+
+## Instalação
+
+Siga estas etapas para configurar e executar o projeto localmente:
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nimbus-insight.git
+   ```
+
+2. Acesse o diretório do projeto:
+   ```bash
+   cd nimbus-insight
+   ```
+
+3. Instale as dependências:
+   ```bash
+   npm install
+   # ou
+   yarn
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
+
+5. Abra o navegador e acesse `http://localhost:3000 ou http://localhost:5173` para ver o site em execução.
