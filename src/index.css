@@ -36,7 +36,7 @@
 }
 
 .menu-icon.open span:nth-child(1) {
-  transform: rotate(45deg) translate(4px, -5px);
+  transform: rotate(45deg) translate(3px, -6px);
 }
 
 .menu-icon.open span:nth-child(2) {
@@ -45,4 +45,8 @@
 
 .menu-icon.open span:nth-child(3) {
   transform: rotate(-45deg) translate(4px, 5px);
+}
+
+html {
+  background: linear-gradient(to right, #0b2a49, #1a509f);
 }
