@@ -55,7 +55,11 @@ const Navbar = () => {
         </div>
         {/* Menu burger para dispositivos móveis */}
         {isOpen && (
-          <div className="md:hidden font-nunito mt-2">
+          <div
+            className={`md:hidden font-nunito mt-2 transition-opacity ${
+              isOpen ? "opacity-100" : "opacity-0 hidden"
+            }`}
+          >
             <a href="#" className="block text-center text-white px-3 py-2">
               Início
             </a>
