@@ -14,16 +14,28 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block ml-auto">
             {/* Opções de navegação */}
-            <a href="#" className="text-white px-3 py-2">
+            <a
+              href="#"
+              className="text-white nav-link px-3 py-2 hover:underline"
+            >
               Home
             </a>
-            <a href="#" className="text-white px-3 py-2">
+            <a
+              href="#"
+              className="text-white nav-link px-3 py-2 hover:underline"
+            >
               Sobre
             </a>
-            <a href="#" className="text-white px-3 py-2">
+            <a
+              href="#"
+              className="text-white nav-link px-3 py-2 hover:underline"
+            >
               Serviços
             </a>
-            <a href="#" className="text-white  py-2">
+            <a
+              href="#"
+              className="text-white nav-link px-3 py-2 hover:underline"
+            >
               Contato
             </a>
           </div>
@@ -33,35 +45,27 @@ const Navbar = () => {
               onClick={() => setIsOpen(!isOpen)}
               className="text-white focus:outline-none"
             >
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
+              <div className={`menu-icon ${isOpen ? "open" : ""}`}>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </button>
           </div>
         </div>
         {/* Menu burger para dispositivos móveis */}
         {isOpen && (
           <div className="md:hidden mt-2">
-            <a href="#" className="block text-white px-3 py-2">
+            <a href="#" className="block text-center text-white px-3 py-2">
               Home
             </a>
-            <a href="#" className="block text-white px-3 py-2">
+            <a href="#" className="block text-center text-white px-3 py-2">
               Sobre
             </a>
-            <a href="#" className="block text-white px-3 py-2">
+            <a href="#" className="block text-center text-white px-3 py-2">
               Serviços
             </a>
-            <a href="#" className="block text-white px-3 py-2">
+            <a href="#" className="block text-center text-white px-3 py-2">
               Contato
             </a>
           </div>

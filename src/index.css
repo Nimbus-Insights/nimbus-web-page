@@ -3,3 +3,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menu-icon {
+  width: 30px;
+  height: 20px;
+  position: relative;
+}
+
+.menu-icon span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background: #fff;
+  border-radius: 3px;
+  transition: transform 0.5s ease;
+}
+
+.menu-icon span:nth-child(1) {
+  top: 0;
+  transform-origin: top left;
+}
+
+.menu-icon span:nth-child(2) {
+  top: 50%;
+  left: 0;
+}
+
+.menu-icon span:nth-child(3) {
+  bottom: 0;
+  transform-origin: bottom left;
+}
+
+.menu-icon.open span:nth-child(1) {
+  transform: rotate(45deg) translate(4px, -5px);
+}
+
+.menu-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, 5px);
+}
