@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import bgMain from "./assets/bg-main4.svg"; // Importe a imagem SVG
+import bgMain from "./assets/bg-main4.svg"; 
 
 function App() {
   return (
