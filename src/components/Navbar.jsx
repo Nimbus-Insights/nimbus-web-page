@@ -26,19 +26,19 @@ const Navbar = ({ isScrolled }) => {
               Home
             </a>
             <a
-              href="#"
+              href="#temp"
               className="text-ni-white nav-link px-5 py-2 hover:underline hover:text-ni-blue-light"
             >
               About
             </a>
             <a
-              href="#"
+              href="#temp"
               className="text-ni-white nav-link px-5 py-2 hover:underline hover:text-ni-blue-light"
             >
               Services
             </a>
             <a
-              href="#"
+              href="#temp"
               className="text-ni-white nav-link px-5 py-2 hover:underline hover:text-ni-blue-light"
             >
               Contact us

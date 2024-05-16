@@ -35,7 +35,10 @@ function App() {
             Website under construction.
           </p>
         </section>
-        <section className="h-screen top-8 bg-cover bg-center flex flex-col justify-center items-start">
+        <section
+          className="h-screen top-8 bg-cover bg-center flex flex-col justify-center items-start"
+          id="temp"
+        >
           {tempData.map((project) => {
             return (
               <TempProject
