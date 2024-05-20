@@ -1,5 +1,11 @@
 const tempData = [
   {
+    name: "SpecHunter",
+    description:
+      "SpecHunter is a web application capable of capturing the spectral signatures of multiband images. In addition to displaying the spectral signatures of selected pixels on the screen, it also allows downloading the data as a CSV table, enabling comparison between the signatures of different pixels and facilitating the collection of reflectance or radiance values from the images. This aids in creating datasets for training artificial intelligence algorithms or even creating a spectral library of the materials present on the study area's surface. It can be adapted for various types of images such as Sentinel, Landsat, ASTER, WorldView, or even hyperspectral images.",
+    url: "https://nimbusinsights.users.earthengine.app/view/spechunter-aster-sentinel",
+  },
+  {
     name: "Aster Mineral Index Threshold",
     description:
       "In this application, we implemented an adjustable threshold for the selected mineral indices, allowing the user to create masks by determining the threshold values for visualizing the mineral indices. This application can also be adapted for indices calculated from other images such as Landsat, Sentinel, WorldView, among others.",
