@@ -2,7 +2,7 @@ const TempProject = ({ name, description, url }) => {
   return (
     <ul>
       <li>
-        <h5 className="text-ni-yellow text-4xl md:text-3xl font-roboto text-left mt-8 mb-4 md:px-36 sm:px-10 px-10 underline">
+        <h5 className="text-ni-yellow text-4xl md:text-3xl font-roboto text-left mt-8 mb-4 md:px-36 sm:px-10 px-10 underline md:mt-20">
           <a href={url} target="_blank">
             {name}
           </a>
