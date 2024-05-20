@@ -24,7 +24,7 @@ function App() {
           </p>
         </section>
         <section
-          className="h-screen top-8 bg-cover bg-center flex flex-col justify-center items-start"
+          className="h-screen top-8 bg-cover bg-center flex flex-col justify-center items-start mt-24 pt-4"
           id="temp"
         >
           {tempData.map((project) => {
