@@ -1,14 +1,14 @@
 import { useState } from "react";
 
-const Navbar = ({ isScrolled }) => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className="fixed top-0 w-full z-50">
       <nav
-        className={`bg-${
-          isScrolled ? "ni-blue-dark" : "transparent"
-        } p-4 fixed top-0 w-full z-50 transition-all duration-300`}
+        className={
+          "bg-ni-blue-dark p-4 fixed top-0 w-full z-50 transition-all duration-300"
+        }
         id="navbar"
       >
         <div className="max-w-full mx-auto flex justify-between items-center">
