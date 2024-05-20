@@ -16,7 +16,11 @@ function App() {
             Nimbus Insights
           </h1>
           <p className="text-white text-lg md:text-3xl font-roboto text-left mt-4 md:px-36 sm:px-10 px-10">
-            Website under construction. Meanwhile, check below our demo apps.
+            Website under construction. Meanwhile,{" "}
+            <a href="#temp" className="underline">
+              click here
+            </a>{" "}
+            to check our demo apps .
           </p>
         </section>
         <section
