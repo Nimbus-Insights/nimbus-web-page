@@ -14,7 +14,9 @@ const Navbar = () => {
         <div className="max-w-full mx-auto flex justify-between items-center">
           <div className="flex items-center">
             <div className="flex-shrink-0 mr-4">
-              <img className="h-10" src="/logo-sided.jpg" alt="Logo" />
+              <a href="#home">
+                <img className="h-10" src="/logo-sided.jpg" alt="Logo" />
+              </a>
             </div>
           </div>
           <div className="hidden font-nunito md:block ml-auto">

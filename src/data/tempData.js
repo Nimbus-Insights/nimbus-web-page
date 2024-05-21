@@ -6,6 +6,12 @@ const tempData = [
     url: "https://nimbusinsights.users.earthengine.app/view/spechunter-aster-sentinel",
   },
   {
+    name: "SpecHunter - Aster/Sentinel: Masira Island",
+    description:
+      "A version of Spechunter using Aster and Sentinel 2 collection applied on Masira Island. Also, it's possible to check PCA applied for both collections.",
+    url: "https://ee-kimgeologia.projects.earthengine.app/view/spechunteraster-sentinel-masiraisland",
+  },
+  {
     name: "Aster Mineral Index Threshold",
     description:
       "In this application, we implemented an adjustable threshold for the selected mineral indices, allowing the user to create masks by determining the threshold values for visualizing the mineral indices. This application can also be adapted for indices calculated from other images such as Landsat, Sentinel, WorldView, among others.",

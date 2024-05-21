@@ -11,6 +11,7 @@ function App() {
         <section
           className="h-screen top-8 bg-cover bg-center flex flex-col justify-center items-start"
           style={{ backgroundImage: `url(${bgMain})` }}
+          id="home"
         >
           <h1 className="text-ni-yellow text-4xl md:text-9xl font-roboto text-left mt-8 mb-4 md:px-36 sm:px-10 px-10">
             Nimbus Insights
