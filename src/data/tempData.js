@@ -6,9 +6,9 @@ const tempData = [
     url: "https://nimbusinsights.users.earthengine.app/view/spechunter-aster-sentinel",
   },
   {
-    name: "SpecHunter - ASTER/Sentinel: Masira Island",
+    name: "SpecHunter - ASTER/Sentinel-2: Masira Island",
     description:
-      "A version of SpecHunter using ASTER and Sentinel 2 collection applied on Masira Island. Also, it's possible to check PCA applied for both collections.",
+      "A version of SpecHunter using ASTER and Sentinel-2 collection applied on Masira Island. Also, it's possible to check PCA applied for both collections.",
     url: "https://ee-kimgeologia.projects.earthengine.app/view/spechunteraster-sentinel-masiraisland",
   },
   {
