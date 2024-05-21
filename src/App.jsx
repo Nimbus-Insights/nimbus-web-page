@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <main>
         <section
-          className="h-screen top-8 bg-cover bg-center flex flex-col justify-center items-start"
+          className="min-h-screen bg-cover bg-center flex flex-col justify-center items-start p-10"
           style={{ backgroundImage: `url(${bgMain})` }}
           id="home"
         >
@@ -21,16 +21,17 @@ function App() {
             <a href="#temp" className="underline">
               click here
             </a>{" "}
-            to check our demo apps .
+            to check our demo apps.
           </p>
         </section>
         <section
-          className="h-screen top-8 bg-cover bg-center flex flex-col justify-center items-start mt-24 py-10"
+          className="min-h-screen bg-cover bg-center flex flex-col justify-center items-start py-10"
           id="temp"
         >
-          {tempData.map((project) => {
+          {tempData.map((project, index) => {
             return (
               <TempProject
+                key={index}
                 name={project.name}
                 description={project.description}
                 url={project.url}
