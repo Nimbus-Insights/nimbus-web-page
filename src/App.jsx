@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import bgMain from "./assets/bg-main.png";
 import tempData from "./data/tempData";
 import TempProject from "./components/TempProject";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           })}
         </section>
       </main>
+      <Footer />
     </>
   );
 }
