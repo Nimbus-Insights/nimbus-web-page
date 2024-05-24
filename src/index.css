@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .hover\:animacao {
+    @apply transform transition-transform duration-300 ease-in-out hover:scale-125;
+  }
+}
+
 html {
   background: linear-gradient(to right, #0b2a49, #1a509f);
 }

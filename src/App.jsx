@@ -1,8 +1,11 @@
 import Navbar from "./components/Navbar";
-import bgMain from "./assets/bg-main.png";
-import tempData from "./data/tempData";
-import TempProject from "./components/TempProject";
 import Footer from "./components/Footer";
+import TempProject from "./components/TempProject";
+
+import bgMain from "./assets/bg-main.png";
+
+
+import tempData from "./data/tempData";
 
 function App() {
   return (

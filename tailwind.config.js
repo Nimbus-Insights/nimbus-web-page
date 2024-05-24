@@ -16,7 +16,26 @@ export default {
         nunito: ["Nunito", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
       },
+      keyframes: {
+        scaleUp: {
+          "0%": { transform: "scale(1)" },
+          "100%": { transform: "scale(1.2)" },
+        },
+      },
+      animation: {
+        scaleUp: "scaleUp 0.5s ease-in-out forwards",
+      },
+      scale: {
+        120: "1.20", // Escala para aumentar em 20%
+      },
     },
   },
   plugins: [],
+  variants: {
+    extend: {
+      transform: ["hover"],
+      scale: ["hover"],
+      animation: ["hover"],
+    },
+  },
 };
