@@ -22,19 +22,19 @@ const Navbar = () => {
           <div className="hidden font-nunito md:block ml-auto">
             {/* Opções de navegação */}
             <a
-              href="#"
+              href="#home"
               className="text-ni-blue-dark  nav-link px-5 py-2 hover:underline hover:text-blue-800 bg-ni-white rounded-full"
             >
               Home
             </a>
             <a
-              href="#temp"
+              href="#projects"
               className="text-ni-white nav-link px-5 py-2 hover:underline hover:text-ni-blue-light"
             >
               About
             </a>
             <a
-              href="#temp"
+              href="#projects"
               className="text-ni-white nav-link px-5 py-2 hover:underline hover:text-ni-blue-light"
             >
               Services
@@ -73,16 +73,31 @@ const Navbar = () => {
               isOpen ? "opacity-100" : "opacity-0 hidden"
             }`}
           >
-            <a href="#" className="block text-center text-white px-3 py-2">
+            <a href="#home" className="block text-center text-white px-3 py-2">
               Home
             </a>
-            <a href="#" className="block text-center text-white px-3 py-2">
+            <a
+              href="#projects"
+              className="block text-center text-white px-3 py-2"
+            >
               About
             </a>
-            <a href="#" className="block text-center text-white px-3 py-2">
+            <a
+              href="#projects"
+              className="block text-center text-white px-3 py-2"
+            >
               Services
             </a>
-            <a href="#" className="block text-center text-white px-3 py-2">
+            <a
+              href="#projects"
+              className="block text-center text-white px-3 py-2"
+            >
+              Projects
+            </a>
+            <a
+              href="#contact"
+              className="block text-center text-white px-3 py-2"
+            >
               Contact us
             </a>
           </div>

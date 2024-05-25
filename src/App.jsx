@@ -21,7 +21,7 @@ function App() {
           </h1>
           <p className="text-white text-lg md:text-3xl font-nunito text-left mt-4 md:px-36 sm:px-10 px-10">
             Website under construction. Meanwhile,{" "}
-            <a href="#temp" className="underline">
+            <a href="#projects" className="underline">
               click here
             </a>{" "}
             to check our demo apps.
