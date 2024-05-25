@@ -5,7 +5,7 @@ import logoSidedTransparency from "../assets/nimbus-sided-logo-transparency.png"
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-gray-900 text-white" id="contact">
       <div className="container mx-auto py-8 px-4 md:px-0">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* LOGO */}
@@ -18,12 +18,14 @@ function Footer() {
           </div>
           {/* CONTACTS */}
           <div className="flex flex-col justify-center items-center mb-8 md:mb-0">
-            <h6 className="mb-4 text-ni-white text-xl">Contact Us</h6>
+            <h6 className="mb-4 text-ni-white text-xl font-nunito">
+              Contact Us
+            </h6>
             <ul className="text-center">
               <li className="mb-2">
                 <a
                   href="mailto:nimbusinsights@gmail.com?subject=Assunto do email&bcc=murillo@nimbusinsights.cloud, kim@nimbusinsights.cloud"
-                  className="text-gray-300 hover:text-ni-white transition-colors duration-300 und"
+                  className="text-gray-300 hover:text-ni-white transition-colors duration-300 underline font-nunito"
                 >
                   Send us an e-mail
                 </a>
@@ -79,7 +81,7 @@ function Footer() {
           </div>
         </div>
         <div className="text-center mt-4">
-          <p className="text-xs sm:text-sm md:text-xs lg:text-sm xl:text-xs">
+          <p className="text-xs sm:text-sm md:text-xs lg:text-sm xl:text-xs font-nunito">
             &copy; {new Date().getFullYear()} Nimbus Insights. All rights
             reserved.
           </p>

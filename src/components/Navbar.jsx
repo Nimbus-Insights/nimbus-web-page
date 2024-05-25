@@ -40,7 +40,13 @@ const Navbar = () => {
               Services
             </a>
             <a
-              href="#temp"
+              href="#projects"
+              className="text-ni-white nav-link px-5 py-2 hover:underline hover:text-ni-blue-light"
+            >
+              Projects
+            </a>
+            <a
+              href="#contact"
               className="text-ni-white nav-link px-5 py-2 hover:underline hover:text-ni-blue-light"
             >
               Contact us

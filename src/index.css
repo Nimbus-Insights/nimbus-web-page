@@ -1,14 +1,12 @@
 @import "./reset.css";
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .hover\:animacao {
-    @apply transform transition-transform duration-300 ease-in-out hover:scale-125;
-  }
-}
 
 html {
   background: linear-gradient(to right, #0b2a49, #1a509f);
