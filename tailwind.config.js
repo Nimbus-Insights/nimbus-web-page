@@ -7,7 +7,7 @@ export default {
         "ni-white": "#ffffee",
         "ni-yellow": "#ffbf00",
         "ni-blue": {
-          dark: "#0b2a49",
+          dark: "#00244c",
           medium: "#3495c8",
           light: "#76dfff",
         },
