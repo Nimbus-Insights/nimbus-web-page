@@ -5,6 +5,7 @@ import TempProject from "./components/TempProject";
 import bgMain from "./assets/bg-main.png";
 
 import tempData from "./data/tempData";
+import About from "./components/About";
 
 function App() {
   return (
@@ -27,9 +28,10 @@ function App() {
             to check our demo apps.
           </p>
         </section>
+        <About />
         <section className="min-h-screen bg-cover bg-center flex flex-col justify-center items-center py-10">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" id="projects">
-            <h2 className="text-ni-yellow text-3xl md:text-4xl font-bold font-roboto text-center mb-8">
+            <h2 className="text-ni-yellow text-4xl md:text-5xl font-bold mb-6 text-center">
               Projects
             </h2>
             {tempData.map((project, index) => (
