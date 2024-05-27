@@ -18,7 +18,7 @@ const About = () => {
       {/* Descrição à Direita */}
       <div className="lg:w-1/2 w-full p-8 lg:p-16 text-white flex flex-col items-center lg:items-start">
         <h2 className="text-ni-yellow text-4xl md:text-5xl font-bold mb-6">
-          About Us
+          About us
         </h2>
         <p className="text-base md:text-lg font-roboto mb-4 leading-relaxed text-justify">
           Nimbus Insights is a geosciences company focused on geotechnologies
