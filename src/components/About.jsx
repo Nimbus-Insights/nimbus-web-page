@@ -11,7 +11,7 @@ const About = () => {
         <img
           src={Logo}
           alt="About Nimbus Insights"
-          className="w-2/3 lg:w-1/2 h-auto rounded-lg transform transition-transform duration-500 hover:scale-105"
+          className="w-2/3 lg:w-1/2 md:w-1/2 h-auto rounded-lg transform transition-transform duration-500 hover:scale-105"
         />
       </div>
 
