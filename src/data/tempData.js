@@ -20,13 +20,13 @@ const tempData = [
   {
     name: "Aster Mineral Index References",
     description:
-      "This application is designed for geological mapping and mineral exploration. In the application, the entire preprocessing of the ASTER collection has been automated. Additionally, various mineral indices available in academic literature have been calculated and plotted. The application can be adapted for any area of the globe covered by the ASTER collection. The bibliographic references for each calculated index are available in the application's information card.",
+      "Designed for geological mapping and mineral exploration. In the application, the entire preprocessing of the ASTER collection has been automated. Additionally, various mineral indices available in academic literature have been calculated and plotted. The application can be adapted for any area of the globe covered by the ASTER collection. The bibliographic references for each calculated index are available in the application's information card.",
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/astermineralindexreferences",
   },
   {
     name: "PCA Sentinel-2 Pegmatite Seridó",
     description:
-      "This application utilizes the split slider functionality to compare an RGB image from the Sentinel satellite with a color composition of the new vectors extracted by Principal Component Analysis (PCA) in the Seridó region. This feature allows users to interactively visualize the differences and correlations between the original data and the PCA results, facilitating the identification of potential areas for pegmatite prospecting.",
+      "Utilizes the split slider functionality to compare an RGB image from the Sentinel satellite with a color composition of the new vectors extracted by Principal Component Analysis (PCA) in the Seridó region. This feature allows users to interactively visualize the differences and correlations between the original data and the PCA results, facilitating the identification of potential areas for pegmatite prospecting.",
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/pagmatitosseridopca1sentinel",
   },
   {
