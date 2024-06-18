@@ -24,6 +24,11 @@ const tempData = [
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/astermineralindexreferences",
   },
   {
+    name: "Aster Mineral Index References",
+    description: "Mobile version of Aster Mineral Index References application.",
+    url: "https://ee-nimbusinsights.projects.earthengine.app/view/astermineralindexmobile",
+  },
+  {
     name: "PCA Sentinel-2 Pegmatite Seridó",
     description:
       "Utilizes the split slider functionality to compare an RGB image from the Sentinel satellite with a color composition of the new vectors extracted by Principal Component Analysis (PCA) in the Seridó region. This feature allows users to interactively visualize the differences and correlations between the original data and the PCA results, facilitating the identification of potential areas for pegmatite prospecting.",
@@ -31,7 +36,8 @@ const tempData = [
   },
   {
     name: "MODIS - Monthly Burned Areas - 500m",
-    description: "This application leverages the MODIS (Moderate Resolution Imaging Spectroradiometer) sensor data to provide monthly monitoring of burned areas worldwide at a 500-meter resolution. Users can select the year and visualize the burned areas, color-coded by quarter, enabling detailed analysis and tracking of fire patterns over time.",
+    description:
+      "This application leverages the MODIS (Moderate Resolution Imaging Spectroradiometer) sensor data to provide monthly monitoring of burned areas worldwide at a 500-meter resolution. Users can select the year and visualize the burned areas, color-coded by quarter, enabling detailed analysis and tracking of fire patterns over time.",
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/modismonthlyburnedareas",
   },
 ];
