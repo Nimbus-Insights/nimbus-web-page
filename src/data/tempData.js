@@ -24,8 +24,8 @@ const tempData = [
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/astermineralindexreferences",
   },
   {
-    name: "Aster Mineral Index References",
-    description: "Mobile version of Aster Mineral Index References application.",
+    name: "Aster Mineral Index References - Mobile",
+    description: "Mobile version of Aster Mineral Index References application. Designed for geological mapping and mineral exploration. In the application, the entire preprocessing of the ASTER collection has been automated. Additionally, various mineral indices available in academic literature have been calculated and plotted. The application can be adapted for any area of the globe covered by the ASTER collection. The bibliographic references for each calculated index are available in the application's information card.",
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/astermineralindexmobile",
   },
   {
