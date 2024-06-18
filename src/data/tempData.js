@@ -24,7 +24,7 @@ const tempData = [
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/astermineralindexreferences",
   },
   {
-    name: "Aster Mineral Index References",
+    name: "Aster Mineral Index References - Mobile",
     description: "Mobile version of Aster Mineral Index References application.",
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/astermineralindexmobile",
   },
