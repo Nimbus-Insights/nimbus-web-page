@@ -3,11 +3,11 @@
 <img src="https://github.com/Nimbus-Insights/nimbus-web-page/assets/91096652/0f2c5212-091e-4bb9-9a55-20bd7f957436" alt="Imagem do WhatsApp de 2024-04-04 à(s) 18 59 37_d05aeb48" width="500" style="margin-bottom: 50px;">
 
 
-# Bem-vindo ao repositório da webpage da Nimbus Insight!
+# Bem-vindo ao repositório da webpage da Nimbus Insights!
 
 ## Sobre o Projeto
 
-O Nimbus Insight é um site que visa fornecer aos usuários uma experiência intuitiva e informativa sobre os serviços e soluções oferecidos pela Nimbus Insight.
+Site que visa fornecer aos usuários uma experiência intuitiva e informativa sobre os serviços e soluções oferecidos pela Nimbus Insights.
 
 ### Tecnologias Utilizadas
 
