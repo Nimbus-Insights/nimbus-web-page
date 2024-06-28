@@ -32,7 +32,7 @@ const tempData = [
   {
     name: "Mining Processes Filters",
     description:
-      "This application allows users to filter mining process data based on various criteria such as name, year, state, and phase. It provides an interactive map to visualize the filtered data, enabling detailed analysis and management of mining processes. Users can click on the map to view information about specific mining areas, facilitating easier tracking and decision-making for mining activities.",
+      "This application allows users to filter mining process data based on various criteria such as name, year, state, phase and number of process. It provides an interactive map to visualize the filtered data, enabling detailed analysis and management of mining processes. Users can click on the map to view information about specific mining areas, facilitating easier tracking and decision-making for mining activities.",
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/filtroprocessosminerarios",
   },
   {
