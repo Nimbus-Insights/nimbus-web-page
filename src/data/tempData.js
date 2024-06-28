@@ -30,6 +30,12 @@ const tempData = [
     url: "https://ee-nimbusinsights.projects.earthengine.app/view/astermineralindexmobile",
   },
   {
+    name: "Mining Processes Filters",
+    description:
+      "This application allows users to filter mining process data based on various criteria such as name, year, state, and phase. It provides an interactive map to visualize the filtered data, enabling detailed analysis and management of mining processes. Users can click on the map to view information about specific mining areas, facilitating easier tracking and decision-making for mining activities.",
+    url: "https://ee-nimbusinsights.projects.earthengine.app/view/filtroprocessosminerarios",
+  },
+  {
     name: "PCA Sentinel-2 Pegmatite Seridó",
     description:
       "Utilizes the split slider functionality to compare an RGB image from the Sentinel satellite with a color composition of the new vectors extracted by Principal Component Analysis (PCA) in the Seridó region. This feature allows users to interactively visualize the differences and correlations between the original data and the PCA results, facilitating the identification of potential areas for pegmatite prospecting.",
