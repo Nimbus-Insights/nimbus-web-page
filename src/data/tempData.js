@@ -10,6 +10,12 @@ const tempData = [
     description:
       "A version of SpecHunter using ASTER and Sentinel-2 collection applied on Masira Island. Also, it's possible to check PCA applied for both collections.",
     url: "https://ee-kimgeologia.projects.earthengine.app/view/spechunteraster-sentinel-masiraisland",
+  },  
+  {
+    name: "PCA Sentinel-2 Bands Selector: Masira Island",
+    description:
+      "This application demonstrates the use of PCA to reduce data dimensionality and identify patterns and internal structures without the need for predefined labels or categories. By transforming the original variables into a new set of uncorrelated variables (principal components), we can reveal hidden information in the data.",
+    url: "https://ee-nimbusinsights.projects.earthengine.app/view/masiraislandselectbandspcasentinel2 ",
   },
   {
     name: "Aster Mineral Index Threshold",
